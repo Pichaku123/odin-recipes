@@ -1,12 +1,17 @@
 body{
-    background-color: lightblue;
+    background-color: palegoldenrod;
+    box-sizing: border-box;
 }
-.title{
-    text-align: center;
-    text-decoration: underline;
-    font-size: 24px;
+.title {
+    background-color: gold;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
     border: 2px solid black;
+    text-decoration: underline;
+    text-align: center; /* Keeps the text centered */
 }
+
 /*headings*/
 #rajma-chawal .heading, #fries .heading, #maggi .heading{
     font-size: 60px;
@@ -16,10 +21,11 @@ body{
 /*image*/
 #maggi .centre, #rajma-chawal .img, #fries .img{
     display: block;
+    border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
 
 }
 /*steps*/
@@ -27,14 +33,20 @@ body{
     margin-left: 40px; 
     font-size: 20px;
 }
-#recipes .list-item{
-    margin-top: 100px;
+#recipes .list-item li{    
+    display: inline-block;
+    background-color: orange;
     font-size: 30px;
-    text-align: center;
-
+    border: 3px solid black;
+    padding: 10px 40px;
+    margin: 30px;
+    cursor: pointer;
 }
-/* #recipes .list-item .item-1{
+#recipes .list-item a{
+    color: ;
+}
+#recipes .list-item{
     text-align: center;
-} */
+}
 
 
