@@ -43,7 +43,7 @@ body{
     cursor: pointer;
 }
 #recipes .list-item a{
-    color: ;
+    color: blue;
 }
 #recipes .list-item{
     text-align: center;
